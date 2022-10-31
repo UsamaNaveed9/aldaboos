@@ -1,0 +1,137 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-10-30 11:20:32.833100",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "item_code",
+  "item_name",
+  "default_uom",
+  "alt_1",
+  "value_alt_1",
+  "alt_2",
+  "value_alt_2",
+  "alt_3",
+  "value_alt_3",
+  "alt_4",
+  "value_alt_4",
+  "alt_5",
+  "value_alt_5"
+ ],
+ "fields": [
+  {
+   "columns": 2,
+   "fieldname": "item_code",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Item Code",
+   "options": "Item"
+  },
+  {
+   "columns": 1,
+   "fetch_from": "item_code.item_name",
+   "fieldname": "item_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Item Name"
+  },
+  {
+   "columns": 1,
+   "fetch_from": "item_code.stock_uom",
+   "fieldname": "default_uom",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default UOM",
+   "options": "UOM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "alt_1",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Alt 1",
+   "options": "UOM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "value_alt_1",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value Alt 1"
+  },
+  {
+   "columns": 1,
+   "fieldname": "alt_2",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Alt 2",
+   "options": "UOM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "value_alt_2",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value Alt 2"
+  },
+  {
+   "columns": 1,
+   "fieldname": "alt_3",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Alt 3",
+   "options": "UOM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "value_alt_3",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value Alt 3"
+  },
+  {
+   "columns": 1,
+   "fieldname": "alt_4",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Alt 4",
+   "options": "UOM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "value_alt_4",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value Alt 4"
+  },
+  {
+   "columns": 1,
+   "fieldname": "alt_5",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Alt 5",
+   "options": "UOM"
+  },
+  {
+   "columns": 1,
+   "fieldname": "value_alt_5",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Value Alt 5"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-10-31 20:24:36.678710",
+ "modified_by": "Administrator",
+ "module": "Aldaboos",
+ "name": "Update Alt UOM Item",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
