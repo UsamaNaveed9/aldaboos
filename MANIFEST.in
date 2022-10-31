@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include aldaboos *.css
+recursive-include aldaboos *.csv
+recursive-include aldaboos *.html
+recursive-include aldaboos *.ico
+recursive-include aldaboos *.js
+recursive-include aldaboos *.json
+recursive-include aldaboos *.md
+recursive-include aldaboos *.png
+recursive-include aldaboos *.py
+recursive-include aldaboos *.svg
+recursive-include aldaboos *.txt
+recursive-exclude aldaboos *.pyc
