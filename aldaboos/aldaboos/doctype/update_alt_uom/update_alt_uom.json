@@ -26,6 +26,7 @@
    "fieldtype": "Column Break"
   },
   {
+   "default": "Now",
    "fieldname": "posting_date",
    "fieldtype": "Date",
    "label": "Posting Date"
@@ -54,7 +55,7 @@
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2022-10-31 20:24:19.184931",
+ "modified": "2022-11-09 13:30:42.687770",
  "modified_by": "Administrator",
  "module": "Aldaboos",
  "name": "Update Alt UOM",
