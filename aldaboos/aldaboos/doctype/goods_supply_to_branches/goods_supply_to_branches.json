@@ -1,0 +1,110 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-14 11:36:44.747038",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "empty",
+  "farwaniya_shop",
+  "farwaniya_store",
+  "fahaheel_shop",
+  "fahaheel_store",
+  "abbasiya_shop",
+  "abbasiya_store",
+  "saffat_shop",
+  "saffat_store",
+  "kwt_shop",
+  "total"
+ ],
+ "fields": [
+  {
+   "fieldname": "empty",
+   "fieldtype": "Data",
+   "label": "empty"
+  },
+  {
+   "columns": 1,
+   "fieldname": "farwaniya_shop",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Farwaniya Shop"
+  },
+  {
+   "columns": 1,
+   "fieldname": "farwaniya_store",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Farwaniya Store"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fahaheel_shop",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fahaheel Shop"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fahaheel_store",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fahaheel Store"
+  },
+  {
+   "columns": 1,
+   "fieldname": "abbasiya_shop",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Abbasiya Shop"
+  },
+  {
+   "columns": 1,
+   "fieldname": "abbasiya_store",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Abbasiya Store"
+  },
+  {
+   "columns": 1,
+   "fieldname": "saffat_shop",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Saffat Shop"
+  },
+  {
+   "columns": 1,
+   "fieldname": "saffat_store",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Saffat Store"
+  },
+  {
+   "columns": 1,
+   "fieldname": "kwt_shop",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "KWT Shop"
+  },
+  {
+   "columns": 1,
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-14 11:36:44.747038",
+ "modified_by": "Administrator",
+ "module": "Aldaboos",
+ "name": "Goods Supply to Branches",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

@@ -1,0 +1,102 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-14 10:19:33.947925",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "from_date",
+  "column_break_2",
+  "to_date",
+  "section_break_4",
+  "get_branch_sales",
+  "branches_sale",
+  "get_kuwait_sale_details",
+  "kuwait_shop_sale_detail",
+  "get_goods_supply_to_branches",
+  "goods_supply_to_branches"
+ ],
+ "fields": [
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "From Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_2",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "To Date",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_4",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "branches_sale",
+   "fieldtype": "Table",
+   "label": "Branches Sale",
+   "options": "Branches Sale"
+  },
+  {
+   "fieldname": "kuwait_shop_sale_detail",
+   "fieldtype": "Table",
+   "label": "Kuwait Shop Sale Detail",
+   "options": "Kuwait Shop Sale Detail"
+  },
+  {
+   "fieldname": "goods_supply_to_branches",
+   "fieldtype": "Table",
+   "label": "Goods Supply to Branches",
+   "options": "Goods Supply to Branches"
+  },
+  {
+   "fieldname": "get_branch_sales",
+   "fieldtype": "Button",
+   "label": "Get Branch Sales",
+   "options": "get_branch_sales"
+  },
+  {
+   "fieldname": "get_kuwait_sale_details",
+   "fieldtype": "Button",
+   "label": "Get Kuwait Sale Details"
+  },
+  {
+   "fieldname": "get_goods_supply_to_branches",
+   "fieldtype": "Button",
+   "label": "Get Goods Supply to Branches"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2022-11-14 12:25:34.685605",
+ "modified_by": "Administrator",
+ "module": "Aldaboos",
+ "name": "All Branches Sales Summary",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

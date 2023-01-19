@@ -1,0 +1,71 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-14 11:27:39.373555",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "empty",
+  "cash_sale",
+  "pay_rcvd",
+  "comm",
+  "total_cash_sale",
+  "credit_sales"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "empty",
+   "fieldtype": "Data",
+   "in_list_view": 1
+  },
+  {
+   "columns": 2,
+   "fieldname": "cash_sale",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Cash Sale"
+  },
+  {
+   "columns": 2,
+   "fieldname": "pay_rcvd",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Pay. RCVD."
+  },
+  {
+   "columns": 1,
+   "fieldname": "comm",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Comm"
+  },
+  {
+   "columns": 2,
+   "fieldname": "total_cash_sale",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total Cash Sale"
+  },
+  {
+   "columns": 2,
+   "fieldname": "credit_sales",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Credit Sales"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-14 11:29:10.777180",
+ "modified_by": "Administrator",
+ "module": "Aldaboos",
+ "name": "Kuwait Shop Sale Detail",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}

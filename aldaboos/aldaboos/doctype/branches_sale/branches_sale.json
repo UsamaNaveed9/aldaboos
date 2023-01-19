@@ -1,0 +1,87 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2022-11-14 10:18:41.104115",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "empty",
+  "farwaniya_cash",
+  "fahaheel__cash",
+  "abbasiya_cash",
+  "saffat_bank",
+  "saffat_cash",
+  "total",
+  "total1"
+ ],
+ "fields": [
+  {
+   "columns": 1,
+   "fieldname": "empty",
+   "fieldtype": "Data",
+   "in_list_view": 1
+  },
+  {
+   "columns": 1,
+   "fieldname": "farwaniya_cash",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Farwaniya Cash"
+  },
+  {
+   "columns": 1,
+   "fieldname": "fahaheel__cash",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Fahaheel  Cash"
+  },
+  {
+   "columns": 1,
+   "fieldname": "abbasiya_cash",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Abbasiya Cash"
+  },
+  {
+   "columns": 1,
+   "fieldname": "saffat_bank",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Saffat Bank"
+  },
+  {
+   "columns": 1,
+   "fieldname": "saffat_cash",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Saffat Cash"
+  },
+  {
+   "columns": 2,
+   "fieldname": "total",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  },
+  {
+   "columns": 2,
+   "fieldname": "total1",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Total"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2022-11-14 10:18:50.994504",
+ "modified_by": "Administrator",
+ "module": "Aldaboos",
+ "name": "Branches Sale",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "track_changes": 1
+}
