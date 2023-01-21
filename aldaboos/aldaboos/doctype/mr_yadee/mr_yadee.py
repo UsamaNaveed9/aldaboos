@@ -8,12 +8,14 @@ from frappe.model.document import Document
 class MrYadee(Document):
 	def before_submit(self):
 		se = frappe.new_doc("Stock Entry")
-		se.stock_entry_type = "Material Issue"
+		se.stock_entry_type = "Material Transfer"
 		se.from_warehouse = self.from_warehouse
+		se.to_warehouse = self.to_warehouse
 
 		for i in self.items:
 			se_item = frappe.new_doc("Stock Entry Detail")
 			se_item.s_warehouse = self.from_warehouse
+			se_item.t_warehouse = self.to_warehouse
 			se_item.item_code = i.item_code
 			se_item.qty = i.qty
 			se_item.uom = i.uom

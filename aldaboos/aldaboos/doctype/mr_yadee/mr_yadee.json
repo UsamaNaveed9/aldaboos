@@ -15,8 +15,8 @@
   "party_name",
   "customer_name",
   "column_break1",
-  "company",
   "transaction_date",
+  "required_date",
   "valid_till",
   "order_type",
   "contact_section",
@@ -194,18 +194,6 @@
    "options": "Mr Yadee",
    "print_hide": 1,
    "read_only": 1
-  },
-  {
-   "fieldname": "company",
-   "fieldtype": "Link",
-   "label": "Company",
-   "oldfieldname": "company",
-   "oldfieldtype": "Link",
-   "options": "Company",
-   "print_hide": 1,
-   "remember_last_selected_value": 1,
-   "reqd": 1,
-   "width": "150px"
   },
   {
    "default": "Today",
@@ -998,13 +986,18 @@
   {
    "fieldname": "column_break_35",
    "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "required_date",
+   "fieldtype": "Date",
+   "label": "Required Date"
   }
  ],
  "icon": "fa fa-shopping-cart",
  "is_submittable": 1,
  "links": [],
  "max_attachments": 1,
- "modified": "2023-01-19 06:59:40.133064",
+ "modified": "2023-01-21 11:54:14.844689",
  "modified_by": "Administrator",
  "module": "Aldaboos",
  "name": "Mr Yadee",
