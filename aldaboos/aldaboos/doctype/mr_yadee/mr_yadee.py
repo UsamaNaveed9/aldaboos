@@ -26,7 +26,6 @@ class MrYadee(Document):
 			se.append("items", se_item)	
 
 		se.save()
-		se.submit() 
 
 	def submit(self):
 		if len(self.items) > 5:
