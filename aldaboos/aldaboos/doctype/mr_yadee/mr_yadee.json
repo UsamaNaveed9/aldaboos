@@ -997,13 +997,15 @@
  "is_submittable": 1,
  "links": [],
  "max_attachments": 1,
- "modified": "2023-01-21 11:54:14.844689",
+ "modified": "2023-01-22 14:32:49.592450",
  "modified_by": "Administrator",
  "module": "Aldaboos",
  "name": "Mr Yadee",
  "owner": "Administrator",
  "permissions": [
   {
+   "amend": 1,
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
@@ -1018,6 +1020,8 @@
    "write": 1
   },
   {
+   "amend": 1,
+   "cancel": 1,
    "create": 1,
    "delete": 1,
    "email": 1,
