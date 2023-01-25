@@ -6,6 +6,16 @@ from frappe import _, msgprint
 from frappe.model.document import Document
 
 class MrYadee(Document):
+	def before_save(self):
+		t_qty = 0
+		t_amount = 0
+		for row in self.items:
+			t_qty = t_qty + row.qty
+			t_amount = t_amount + int(row.amount)
+
+		self.total_qty = t_qty
+		self.total = t_amount	
+
 	def before_submit(self):
 		se = frappe.new_doc("Stock Entry")
 		se.stock_entry_type = "Material Transfer"
