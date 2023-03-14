@@ -11,7 +11,7 @@ class MrYadee(Document):
 		t_amount = 0
 		for row in self.items:
 			t_qty = t_qty + row.qty
-			t_amount = t_amount + int(row.amount)
+			t_amount = t_amount + row.amount
 
 		self.total_qty = t_qty
 		self.total = t_amount	
