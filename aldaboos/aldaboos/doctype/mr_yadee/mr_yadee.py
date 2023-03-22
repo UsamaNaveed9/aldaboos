@@ -19,6 +19,8 @@ class MrYadee(Document):
 	def before_submit(self):
 		se = frappe.new_doc("Stock Entry")
 		se.stock_entry_type = "Material Transfer"
+		se.set_posting_time = 1
+		se.posting_date = self.transaction_date
 		se.from_warehouse = self.from_warehouse
 		se.to_warehouse = self.to_warehouse
 
